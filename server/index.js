@@ -1,5 +1,5 @@
 const express = require('express');
-import cors from 'cors';
+const cors = require('cors');
 const fileUploader = require('express-fileupload');
 const pdfParse = require('pdf-parse');
 const bodyParser = require('body-parser');
