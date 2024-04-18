@@ -1,6 +1,5 @@
 const express = require('express');
-const axios = require('axios');
-const fs = require('fs');
+import cors from 'cors';
 const fileUploader = require('express-fileupload');
 const pdfParse = require('pdf-parse');
 const bodyParser = require('body-parser');
